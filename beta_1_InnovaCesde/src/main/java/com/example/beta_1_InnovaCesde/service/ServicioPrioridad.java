@@ -38,8 +38,7 @@ public class ServicioPrioridad {
 
             // Modificando los datos
             prioridadEncontrada.setNombre(datosNuevos.getNombre());
-            // Si la clase Prioridad tiene otros campos (ej: descripcion), los agregas aquí:
-            // prioridadEncontrada.setDescripcion(datosNuevos.getDescripcion());
+            
 
             // Guardo los cambios y los retorno
             return this.repositorioPrioridad.save(prioridadEncontrada);
